@@ -1,6 +1,7 @@
 {
   "name": "lighthouse-resources",
-  "private": true,
+  "private": false,
+  "homepage": "https://myusername.github.io/matdev/myreponame",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
