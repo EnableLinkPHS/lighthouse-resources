@@ -1,7 +1,6 @@
 {
   "name": "lighthouse-resources",
   "private": false,
-  "homepage": "https://enablelinkphs.github.io/lighthouse-resources/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
