@@ -6,7 +6,7 @@
   <SidebarWrapper>
     <SidebarGroup>
       <SidebarItem label = "A"></SidebarItem>
-			<SidebarItem label = "B"></SidebarItem>
+      <SidebarItem label = "B"></SidebarItem>
     </SidebarGroup>
   </SidebarWrapper>
 </Sidebar>
