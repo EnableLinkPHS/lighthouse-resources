@@ -5,7 +5,7 @@
 </div>
 
 <style>
-.sidebar {
+.Sidebar {
     position: fixed;
     top: 138px;
     width: fit-content;
@@ -14,7 +14,7 @@
     background: rgb(92, 91, 91); /* 231F20 */
 }
 
-.sidebar p {
+.Sidebar p {
     padding: 2px;
     width: 180px;
     border: 2px solid white;
