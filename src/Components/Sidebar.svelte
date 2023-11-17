@@ -1,4 +1,4 @@
-<div class="Sidebar">
+<aside class="Sidebar">
   <p>Supply Stores</p> 
   <p>Vocational Rehab</p>
   <p>Transporation</p>
@@ -6,7 +6,7 @@
 	<p>Deafblind Services</p>
 	<p>Housing</p>
 	<p>Mobile Apps</p>
-</div>
+</aside>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 <style>
 	.Sidebar {
