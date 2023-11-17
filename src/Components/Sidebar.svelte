@@ -1,11 +1,7 @@
 <aside class="Sidebar">
-  <p>Supply Stores</p> 
-  <p>Vocational Rehab</p>
-  <p>Transporation</p>
-	<p>MD DORS</p>
-	<p>Deafblind Services</p>
-	<p>Housing</p>
-	<p>Mobile Apps</p>
+	{#each sideitems as item}
+		<p>{item}</p>
+	{/each}
 </aside>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 <style>
@@ -35,3 +31,12 @@
 		border-bottom: 0px;
 	}
 </style>
+<script>
+	let sideitems = ["Supply Stores",
+					"Vocational Rehab",
+					"Transportation",
+					"MD DORS",
+					"DeafBlind Services",
+					"Housing",
+					"Mobile Apps"];
+</script>
