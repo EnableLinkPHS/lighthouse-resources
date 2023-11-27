@@ -1,4 +1,4 @@
-<aside class="Sidebar" align="left">
+<aside class="Sidebar">
 	{#each sideitems as item}
 		<p>{item}</p>
 	{/each}
