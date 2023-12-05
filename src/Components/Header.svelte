@@ -1,8 +1,14 @@
-<nav id = "header">
+<aside id = "header">
     {#each navitems as item}<p>{item}</p>{/each}
-</nav>
+</aside>
 
 
 <script>
-    let  navitems = ["Resize Text", "High Contrast", "Font Style", "Link Underline", "<temp>"];
+    let navitems = [
+        "Resize Text", 
+        "High Contrast", 
+        "Font Style", 
+        "Link Underline", 
+        "<temp>"
+    ];
 </script>

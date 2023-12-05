@@ -1,8 +1,8 @@
-<aside class="Sidebar">
-	{#each sideitems as item}
-		<p>{item}</p>
+<nav class="Sidebar">
+	{#each sideitems as item, index}
+		<p><a href={sideurls[index]}>{item}</a></p>
 	{/each}
-</aside>
+</nav>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 <style>
 	.Sidebar {
@@ -32,11 +32,22 @@
 	}
 </style>
 <script>
-	let sideitems = ["Supply Stores",
-					"Vocational Rehab",
-					"Transportation",
-					"MD DORS",
-					"DeafBlind Services",
-					"Housing",
-					"Mobile Apps"];
+	let sideitems = [
+		"Supply Stores",
+		"Vocational Rehab",
+		"Transportation",
+		"MD DORS",
+		"DeafBlind Services",
+		"Housing",
+		"Mobile Apps"
+	];
+	let sideurls = [
+		"#stores",
+		"#vocational",
+		"#transport",
+		"#mddors",
+		"#dbservices",
+		"#housing",
+		"#apps"
+	];
 </script>
