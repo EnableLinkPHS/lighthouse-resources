@@ -1,30 +1,30 @@
 <nav class="Sidebar">
-	{#each sideitems as item, index}
-		<p><a href={sideurls[index]}>{item}</a></p>
+	{#each sideitems as [item, url]}
+		<p><a href={url}>{item}</a></p>
 	{/each}
 </nav>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
 <style>
 	.Sidebar {
-	    position: fixed;
-	    top: 20%;
-	    width: 20%;
-	    height: 100%;
-	    padding: 5px;
-	    background: #2b175f
+		position: fixed;
+		top: 20%;
+		width: 20%;
+		height: 100%;
+		padding: 5px;
+		background: #2b175f
 	}
 	
 	.Sidebar p {
-			font-family: 'Roboto Slab';
-	    padding: 6px;
-		  padding-top: 5%;
-			padding-bottom: 5%;
-	    border-bottom: 2px solid white;
-	    text-align: left;
-	    margin: 0px;
-	    font-size: 15px;
-	    color: white;
-	    overflow: auto;
+		font-family: 'Roboto Slab';
+	    	padding: 6px;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		border-bottom: 2px solid white;
+		text-align: left;
+		margin: 0px;
+		font-size: 15px;
+		color: white;
+		overflow: auto;
 	}
 
 	.Sidebar p:last-child {
@@ -33,21 +33,12 @@
 </style>
 <script>
 	let sideitems = [
-		"Supply Stores",
-		"Vocational Rehab",
-		"Transportation",
-		"MD DORS",
-		"DeafBlind Services",
-		"Housing",
-		"Mobile Apps"
-	];
-	let sideurls = [
-		"#stores",
-		"#vocational",
-		"#transport",
-		"#mddors",
-		"#dbservices",
-		"#housing",
-		"#apps"
+		["Supply Stores", "#stores"],
+		["Vocational Rehab", "#rehab"],
+		["Transportation", "#transport"],
+		["MD DORS", "#mddors"],
+		["DeafBlind Services", "#dbs"],
+		["Housing", "#housing"],
+		["Mobile Apps", '#apps"]
 	];
 </script>
