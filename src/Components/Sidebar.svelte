@@ -3,7 +3,7 @@
 </script>
 <aside class="Sidebar">
 	{#each data.sideitems as item}
-		<p><a href=#top>{item}</a></p>
+		<p><a href=#top>{item.id}</a></p>
 	{/each}
 </aside>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
