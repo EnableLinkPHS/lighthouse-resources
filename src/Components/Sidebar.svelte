@@ -1,5 +1,5 @@
 <script context="module">
-	import data from '../data.json';
+	import data from '../Assets/data.json';
 </script>
 <aside class="Sidebar">
 	{#each data.sideitems as item}
@@ -18,10 +18,10 @@
 	}
 	
 	.Sidebar p {
-			font-family: 'Roboto Slab';
+		font-family: 'Roboto Slab';
 	    padding: 6px;
-		  padding-top: 5%;
-			padding-bottom: 5%;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	    border-bottom: 2px solid white;
 	    text-align: left;
 	    margin: 0px;
