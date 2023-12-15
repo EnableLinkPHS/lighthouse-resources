@@ -17,7 +17,7 @@
 		background: #2b175f;
 	}
 	
-	.Sidebar p {
+	.Sidebar button {
 		background: none!important;
 		border: none;
 		font-family: 'Roboto Slab';
@@ -35,7 +35,7 @@
 		text-decoration: underline;
 	}
 
-	.Sidebar p:last-child {
+	.Sidebar button:last-child {
 		border-bottom: 0px;
 	}
 </style>
