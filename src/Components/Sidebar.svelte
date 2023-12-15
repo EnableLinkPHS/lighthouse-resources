@@ -19,18 +19,19 @@
 	
 	.Sidebar button {
 		background: none!important;
-		border: none;
 		font-family: 'Roboto Slab';
+		color: white;
+		font-size: 15px;
+		text-align: left;
+		width: 100%;
+		border: none;
+		border-radius: 0px;
+		border-bottom: 2px solid white;
+		margin: 0px;
 		padding: 6px;
 		padding-top: 5%;
 		padding-bottom: 5%;
-		border-bottom: 2px solid white;
-		text-align: left;
-		margin: 0px;
-		font-size: 15px;
-		color: white;
 		overflow: auto;
-		width: 100%;
 		cursor: pointer;
 		text-decoration: underline;
 	}
