@@ -1,9 +1,9 @@
 <script context="module">
 	import data from '../Assets/data.json';
 </script>
-<aside class="Sidebar">
+<aside class="Sidebar" role="navigation">
 	{#each data.sideitems as item}
-		<button>{item.id}</button>
+		<button role="link">{item.id}</button>
 	{/each}
 </aside>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
