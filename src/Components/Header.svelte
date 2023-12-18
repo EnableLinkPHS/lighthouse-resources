@@ -1,12 +1,12 @@
-<aside class = "header">
-    <button><i></i>Increase Font</button>
-	<button><i></i>Decrease Font</button>
-	<button><i></i>Grayscale</button>
-	<button><i></i>High Contrast</button>
-	<button><i></i>URL Underline</button>
+<aside class = "Header">
+	<button>Increase Font</button>
+	<button>Decrease Font</button>
+	<button>Grayscale</button>
+	<button>High Contrast</button>
+	<button>URL Underline</button>
 </aside>
 <style>
-    .Header button {
+	.Header button {
 		padding: 1%;
 		width: 15%;
 		float: left;
