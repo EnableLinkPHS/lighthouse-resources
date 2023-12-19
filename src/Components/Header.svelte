@@ -1,4 +1,4 @@
-<aside class ="Header" role="toolbar">
+<aside class="Header" role="toolbar">
 	<button>Increase Font</button>
 	<button>Decrease Font</button>
 	<button>Grayscale</button>
