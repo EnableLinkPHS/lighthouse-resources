@@ -1,10 +1,10 @@
-<aside class="Header" role="toolbar">
+<div class="Header" role="toolbar">
 	<button>Increase Font</button>
 	<button>Decrease Font</button>
 	<button>Grayscale</button>
 	<button>High Contrast</button>
 	<button>URL Underline</button>
-</aside>
+</div>
 <style>
 	.Header button {
 		padding: 1%;

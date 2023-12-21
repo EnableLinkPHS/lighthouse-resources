@@ -7,5 +7,11 @@
 		{"id": "DeafBlind Services"},
 		{"id": "Housing"},
 		{"id": "Mobile Apps"}
-	]
+	],
+	"home": {
+		"flavor": "Hompage"
+	},
+	"supply": {
+		"flavor": "Supply Stores"
+	}
 }
