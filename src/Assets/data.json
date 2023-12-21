@@ -12,6 +12,12 @@
 		"flavor": "Hompage"
 	},
 	"supply": {
-		"flavor": "Supply Stores"
+		"flavor": "Supply Stores",
+		"thead": ["Name", "Phone Number", "Website", "Email"],
+		"table": [
+			["The Carroll Center for the Blind", "617-969-6200, extension 240", "https://carroll.org/store/", null],
+			["National Federation for the Blind", "410-659-9314, extension 2216", "https://nfb.org/programs-services/independence-market", "independencemarket@nfb.org"],
+			["Maxi-Aids", "800-522-6294", "www.nsightvipservices.com", "donna@n-sightwebservices.com"]
+		]
 	}
 }
