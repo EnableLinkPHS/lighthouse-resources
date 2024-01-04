@@ -9,15 +9,66 @@
 		{"id": "Mobile Apps"}
 	],
 	"home": {
-		"flavor": "Hompage"
+		"flavor": "Homepage"
 	},
 	"supply": {
 		"flavor": "Supply Stores",
 		"thead": ["Name", "Phone Number", "Website", "Email"],
 		"table": [
-			["The Carroll Center for the Blind", "617-969-6200, extension 240", "https://carroll.org/store/", null],
-			["National Federation for the Blind", "410-659-9314, extension 2216", "https://nfb.org/programs-services/independence-market", "independencemarket@nfb.org"],
-			["Maxi-Aids", "800-522-6294", "www.nsightvipservices.com", "donna@n-sightwebservices.com"]
+			{
+				"Name": "The Carroll Center for the Blind",
+				"Phone Number": "617-969-6200 ext 240",
+				"Website": "https://carroll.org/store/",
+				"Email": ""
+			},
+			{
+				"Name": "American Council for the Blind",
+				"Phone Number": "",
+				"Website": "",
+				"Email": ""
+			},
+			{
+				"Name": "National Federation for the Blind ",
+				"Phone Number": "410-659-9314, extension 2216",
+				"Website": "https://nfb.org/programs-services/independence-market",
+				"Email": "independencemarket@nfb.org"
+			},
+			{
+				"Name": "Maxi-Aids",
+				"Phone Number": "800-522-6294",
+				"Website": "www.maxiaids.com",
+				"Email": ": www.nsightvipservices.com"
+			},
+			{
+				"Name": "LS&S",
+				"Phone Number": "800-468-4789 or 716-348-3500",
+				"Website": "www.LSSproducts.com",
+				"Email": "LsSinfo@LSSproducts.com"
+			},
+			{
+				"Name": "ILA Independence Living Aids,LLC",
+				"Phone Number": "800-537-2118 or 716-332-2970",
+				"Website": "www.independentliving.com",
+				"Email": "catalog@independentliving.com"
+			},
+			{
+				"Name": "N'SIGHT VIP SERVICES, LLC",
+				"Phone Number": "202-570-4282",
+				"Website": ": www.nsightvipservices.com",
+				"Email": "LsSinfo@LSSproducts.com"
+			},
+			{
+				"Name": "Miami Lighthouse for the Blind and Visually Impaired",
+				"Phone Number": "305-856-2288",
+				"Website": "https://lighthouseshop.org/ ",
+				"Email": ""
+			},
+			{
+				"Name": "The Low Vision Store",
+				"Phone Number": "1-800-871-8780",
+				"Website": "",
+				"Email": ""
+			}
 		]
 	}
 }
