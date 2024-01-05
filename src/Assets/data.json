@@ -1,12 +1,12 @@
 {
 	"sideitems": [
-		{"id": "Homepage"},
-		{"id": "Supply Stores"},
-		{"id": "Transportation"},
-		{"id": "MD DORS"},
-		{"id": "DeafBlind Services"},
-		{"id": "Housing"},
-		{"id": "Mobile Apps"}
+		{"name": "Homepage", "id": "home"},
+		{"name": "Supply Stores", "id": "stores"},
+		{"name": "Transportation", "id": "transport"},
+		{"name": "MD DORS", "id": "dors"},
+		{"name": "DeafBlind Services", "id": "services"},
+		{"name": "Housing", "id": "housing"},
+		{"name": "Mobile Apps", "id": "apps"}
 	],
 	"home": {
 		"flavor": "Homepage"
@@ -34,9 +34,9 @@
 				"Email": "independencemarket@nfb.org"
 			},
 			{
-				"Name": "Maxi-Aids",
+				"Name": "Maxi-Anames",
 				"Phone Number": "800-522-6294",
-				"Website": "www.maxiaids.com",
+				"Website": "www.maxianames.com",
 				"Email": ": www.nsightvipservices.com"
 			},
 			{
@@ -46,7 +46,7 @@
 				"Email": "LsSinfo@LSSproducts.com"
 			},
 			{
-				"Name": "ILA Independence Living Aids,LLC",
+				"Name": "ILA Independence Living Anames,LLC",
 				"Phone Number": "800-537-2118 or 716-332-2970",
 				"Website": "www.independentliving.com",
 				"Email": "catalog@independentliving.com"

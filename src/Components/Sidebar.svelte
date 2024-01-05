@@ -3,7 +3,7 @@
 </script>
 <aside class="Sidebar" role="navigation">
 	{#each data.sideitems as item}
-		<button role="link">{item.id}</button>
+		<button role="link">{item.name}</button>
 	{/each}
 </aside>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
