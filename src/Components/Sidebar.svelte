@@ -1,5 +1,10 @@
 <script context="module">
 	import data from '../Assets/data.json';
+	import { pageID } from '../store.js';
+	//export let page = "home";
+	//export let contrast = "none";
+	let primary = "#2b175f";
+	let text = "ffffff";
 </script>
 <aside class="Sidebar" role="navigation">
 	{#each data.sideitems as item}
