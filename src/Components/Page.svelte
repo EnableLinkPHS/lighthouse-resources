@@ -1,7 +1,12 @@
-<script context="module">
-    import data from "../Assets/data.json";
-</script>
 <script>
-    export let current = "home"; // defaults to homepage
+    import data from "../Assets/data.json";
+    export let current = "home";
 </script>
-<p>{data[current].flavor}</p>
+<main class="Page">
+    <p>{data[current].flavor}</p>
+</main>
+<style>
+    .Page {
+        position: relative;
+    }
+</style>
