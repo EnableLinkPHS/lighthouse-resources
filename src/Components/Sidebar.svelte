@@ -45,9 +45,14 @@
 		text-decoration: underline;
 	}
 
+	.Sidebar button:hover {
+		background-color: #eeeeee;
+		color: #000000;
+	}
+
 	.Sidebar button[disabled] {
-		background : black!important;
-		color: yellow;
+		background : #eeeeee!important;
+		color: #000000;
 	}
 
 	.Sidebar button:last-child {
