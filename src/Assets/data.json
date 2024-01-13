@@ -1,7 +1,7 @@
 {
 	"sideitems": [
 		{"name": "Homepage", "id": "home"},
-		{"name": "Supply Stores", "id": "stores"},
+		{"name": "Supply Stores", "id": "supply"},
 		{"name": "Transportation", "id": "transport"},
 		{"name": "MD DORS", "id": "dors"},
 		{"name": "DeafBlind Services", "id": "services"},
@@ -70,5 +70,20 @@
 				"Email": ""
 			}
 		]
+	},
+	"transport": {
+		"flavor": "Transportation"
+	},
+	"dors": {
+		"flavor": "Maryland Division of Rehabilitation Services"
+	},
+	"services": {
+		"flavor": "DeafBlind Services"
+	},
+	"housing": {
+		"flavor": "Housing"
+	},
+	"apps": {
+		"flavor": "Mobile Apps for the Blind"
 	}
 }

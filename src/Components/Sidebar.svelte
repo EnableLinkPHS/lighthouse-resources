@@ -1,14 +1,18 @@
-<script context="module">
+<script>
 	import data from '../Assets/data.json';
-	import { pageID } from '../store.js';
-	//export let page = "home";
-	//export let contrast = "none";
+	export let page = "home";
+	export let contrast = "none";
 	let primary = "#2b175f";
 	let text = "ffffff";
+	function setCurrent(value){ page = value; }
 </script>
 <aside class="Sidebar" role="navigation">
 	{#each data.sideitems as item}
-		<button role="link">{item.name}</button>
+		{#if (item.id == page)}
+			<button role="link" on:click={() => setCurrent(item.id)} disabled>{item.name}</button>
+		{:else}
+			<button role="link" on:click={() => setCurrent(item.id)}>{item.name}</button>
+		{/if}
 	{/each}
 </aside>
 <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
@@ -23,7 +27,7 @@
 	}
 	
 	.Sidebar button {
-		background: none!important;
+		background: none;
 		font-family: 'Roboto Slab';
 		color: white;
 		font-size: 15px;
@@ -39,6 +43,11 @@
 		overflow: auto;
 		cursor: pointer;
 		text-decoration: underline;
+	}
+
+	.Sidebar button[disabled] {
+		background : black!important;
+		color: yellow;
 	}
 
 	.Sidebar button:last-child {
