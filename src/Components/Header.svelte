@@ -11,6 +11,7 @@
 		width: 15%;
 		float: left;
 		background-color: #2b175f;
+		color: white;
 		border: none;
 		font-family: 'Roboto Slab';
 		font-size: 15px;

@@ -46,13 +46,13 @@
 	}
 
 	.Sidebar button:hover {
-		background-color: #eeeeee;
-		color: #000000;
+		background-color: white;
+		color: black;
 	}
 
 	.Sidebar button[disabled] {
-		background : #eeeeee!important;
-		color: #000000;
+		background : white!important;
+		color: black;
 	}
 
 	.Sidebar button:last-child {
