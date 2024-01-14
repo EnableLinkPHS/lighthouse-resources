@@ -8,7 +8,7 @@
 <style>
 	.Header button {
 		padding: 1%;
-		width: 15%;
+		width: 20%;
 		float: left;
 		background-color: #2b175f;
 		color: white;
