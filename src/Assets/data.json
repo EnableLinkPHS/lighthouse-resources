@@ -33,10 +33,10 @@
 				"Email": "independencemarket@nfb.org"
 			},
 			{
-				"Name": "Maxi-Anames",
+				"Name": "Maxi-Aids",
 				"Phone Number": "800-522-6294",
-				"Website": "www.maxianames.com",
-				"Email": ": www.nsightvipservices.com"
+				"Website": "www.maxiaids.com",
+				"Email": "sales@maxiaids.com"
 			},
 			{
 				"Name": "LS&S",
@@ -71,10 +71,118 @@
 		]
 	},
 	"transport": {
-		"flavor": "Transportation"
+		"flavor": "Transportation",
+		"thead": ["Company Name", "Phone Number", "Location", "Details"],
+		"table": [
+			 {
+			   "Company Name": "Yellow Cab",
+			   "Phone Number": "202-544-1212",
+			   "Location": "DC",
+			   "Details": ""
+			 },
+			 {
+			   "Company Name": "Barwood Taxi",
+			   "Phone Number": "301-984-1900",
+			   "Location": "Maryland",
+			   "Details": ""
+			 },
+			 {
+			   "Company Name": "SILVER CAB",
+			   "Phone Number": "301-577-2000",
+			   "Location": "Maryland",
+			   "Details": ""
+			 },
+			 {
+			   "Company Name": "Red Top Cab",
+			   "Phone Number": "703-522-3333",
+			   "Location": "Virginia",
+			   "Details": ""
+			 },
+			 {
+			   "Company Name": "Metro Access",
+			   "Phone Number": "301-562-5360",
+			   "Location": "DMV Area",
+			   "Details": "ADA paratransit for qualified individuals with disabilities"
+			 },
+			 {
+			   "Company Name": "MD RELAY 711",
+			   "Phone Number": "800-643-3769",
+			   "Location": "Maryland",
+			   "Details": ""
+			 },
+			 {
+			   "Company Name": "Transport DC",
+			   "Phone Number": "844-322-7732",
+			   "Location": "DC",
+			   "Details": "Alternative transportation service for Metro Access for those who live in DC and who are traviling in and around DC only"
+			 },
+			 {
+			   "Company Name": "Metro’s Abilities-Ride ",
+			   "Phone Number": "202-962-2686",
+			   "Location": "DC",
+			   "Details": "Alternative service for MetroAccess-eligible customers"
+			 },
+			 {
+			   "Company Name": "Senior Med Express",
+			   "Phone Number": "202-724-5626",
+			   "Location": "DC",
+			   "Details": "For people 60 and over, for medical appointmnets"
+			 },
+			 {
+			   "Company Name": "DC Neighborhood Connect ",
+			   "Phone Number": "202-398-0500",
+			   "Location": "DC",
+			   "Details": "Microtransit in parts of DC"
+			 },
+			 {
+			   "Company Name": "VetaRide",
+			   "Phone Number": "202-724-4010",
+			   "Location": "DC",
+			   "Details": "For low-income veterans"
+			 },
+			 {
+			   "Company Name": "Seabury ConnectorCard",
+			   "Phone Number": "202-844-3000",
+			   "Location": "DC",
+			   "Details": "Available To older adults, pre-paid visa card for transportation"
+			 },
+			 {
+			   "Company Name": "Volunteer Transportation Services",
+			   "Phone Number": "301-738-3252",
+			   "Location": "DC",
+			   "Details": "Through Villages for older adults"
+			 },
+			 {
+			   "Company Name": "Metrorail and Metrobus",
+			   "Phone Number": "202-962-1100",
+			   "Location": "DC/MD/VA",
+			   "Details": "Free and Reduced fare programs for older adults and people with disabilities"
+			 },
+			 {
+			   "Company Name": "DC Circulator",
+			   "Phone Number": "202-671-2020",
+			   "Location": "DC/MD/VA",
+			   "Details": "Reduced fare program for older adults and people with disabiities"
+			 },
+			 {
+			   "Company Name": "Reach-a-Ride",
+			   "Phone Number": "855-732-2427",
+			   "Location": "DC/MD/VA",
+			   "Details": "Information on transportation in DC, MD and VA"
+			 },
+			 {
+			   "Company Name": "Jewish Center for the Aging: Connect-a-Ride",
+			   "Phone Number": "301-738-3252",
+			   "Location": "DC",
+			   "Details": "Information on transportation available to any older adult in the DC area"
+			 }
+			]
 	},
 	"dors": {
 		"flavor": "Maryland Division of Rehabilitation Services"
+	},
+	"services": {
+		"flavor": "DeafBlind Services"
 	},
 	"housing": {
 		"flavor": "Housing"
