@@ -4,7 +4,6 @@
 		{"name": "Supply Stores", "id": "supply"},
 		{"name": "Transportation", "id": "transport"},
 		{"name": "MD DORS", "id": "dors"},
-		{"name": "DeafBlind Services", "id": "services"},
 		{"name": "Housing", "id": "housing"},
 		{"name": "Mobile Apps", "id": "apps"}
 	],
@@ -76,9 +75,6 @@
 	},
 	"dors": {
 		"flavor": "Maryland Division of Rehabilitation Services"
-	},
-	"services": {
-		"flavor": "DeafBlind Services"
 	},
 	"housing": {
 		"flavor": "Housing"
