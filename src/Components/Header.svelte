@@ -8,6 +8,7 @@
 <style>
 	.Header {
 		position: fixed;
+		width: 100%;
 	}
 
 	.Header button {
