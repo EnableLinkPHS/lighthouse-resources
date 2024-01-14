@@ -530,9 +530,49 @@
 		"flavor": "DeafBlind Services"
 	},
 	"housing": {
-		"flavor": "Housing"
+		"flavor": "Housing",
+		"thead": ["State", "Name", "Services", "Phone Number", "Email", "Address", "Website"],
+		"table": [
+			{
+			  "State": "DC",
+			  "Name": "Bread For The City",
+			  "Services": "Low income housing search, food, clothing, health care, social services, legal services and representative payee",
+			  "Phone Number": "202-265-2400",
+			  "Email": "info@breadforthecity.org",
+			  "Address": "1525 7th Street NW, DC 20001",
+			  "website": "https://breadforthecity.org/"
+			},
+			{
+			  "State": "DC",
+			  "Name": "So Others Might Eat",
+			  "Services": "Housing, basic needs, social services, healthcare and job training",
+			  "Phone Number": "(202) 797-8806",
+			  "Email": "some@some.org",
+			  "Address": "71 O Street NW, DC 20001",
+			  "website": "https://some.org/"
+			}
+		]
 	},
 	"apps": {
-		"flavor": "Mobile Apps for the Blind"
+		"flavor": "Mobile Apps for the Blind",
+		"thead": ["Name", "Description"],
+		"table": [
+			{
+			  "Name": "Aira",
+			  "Description": "Smartphone is used to do a video call to representative to help customer with locating whatever they need"
+			},
+			{
+			  "Name": "Be My Eyes",
+			  "Description": "Smartphone is used to do a video call to representative to help customer with locating whatever they need (Recommend to use Aira if looking at sensitive information such as card information.)"
+			},
+			{
+			  "Name": "TapTapSee",
+			  "Description": "Describes object by shape and color"
+			},
+			{
+			  "Name": "Supersense",
+			  "Description": "Uses camera to view the room and gives a description of what it is looking at be it a door, chair or words."
+			}
+		]
 	}
 }

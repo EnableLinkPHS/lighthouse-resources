@@ -6,6 +6,10 @@
 	<button>URL Underline</button>
 </div>
 <style>
+	.Header {
+		position: fixed;
+	}
+
 	.Header button {
 		padding: 1%;
 		width: 20%;
