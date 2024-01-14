@@ -19,8 +19,8 @@
 <style>
 	.Sidebar {
 		position: fixed;
-		top: 20%;
-		width: 20%;
+		top: 15%;
+		width: 15%;
 		height: 100%;
 		padding: 5px;
 		background: #2b175f;
