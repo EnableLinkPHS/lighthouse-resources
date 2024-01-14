@@ -5,7 +5,8 @@
 <main class="Page">
     <p>{data[current].flavor}</p>
     {#if data[current].thead}
-        <table>
+        <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+        <table tabindex="0">
             <tr>{#each data[current].thead as header}
                 <th>{header}</th>
                 {/each}
