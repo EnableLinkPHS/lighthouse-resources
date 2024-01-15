@@ -16,7 +16,11 @@
 <style>
   #skip-link {
     position: absolute;
-    left: 50%;
+    left: 0%;
     transform: translateY(-100%);
+  }
+
+  #skip-link:focus {
+    transform: translateY(0%);
   }
 </style>
