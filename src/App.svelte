@@ -3,7 +3,7 @@
   import Header from "./Components/Header.svelte";
   import Page from "./Components/Page.svelte";
   //import { pageID, pageContrast} from "./store.js";
-  let page; let contrast; let fontSize; let underline;
+  let page = "home"; let contrast = "none"; let fontSize = 10; let underline = false;
 </script>
 <!--button on:click={e => fontSize = Math.min(60, fontSize + 1)} aria-label="Increase font size">+</button>
 <button on:click={e => fontSize = Math.max(-3, fontSize - 1)} aria-label="Decrease font size">-</button>

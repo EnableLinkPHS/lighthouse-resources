@@ -1,7 +1,5 @@
 <script>
-	export let contrast = "none";
-	export let fontSize = 10;
-	export let underline = false;
+	export let contrast; export let fontSize; export let underline;
 	function changeContrast(value){
 		contrast != value ? contrast = value : contrast = "none";
 	}
