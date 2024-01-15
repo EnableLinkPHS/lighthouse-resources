@@ -3,7 +3,7 @@
     export let current = "home";
 </script>
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-<main class="Page">
+<main class="Page" id="page">
     <p tabindex="0">{data[current].flavor}</p>
     {#if data[current].thead} 
         <table tabindex="0">
