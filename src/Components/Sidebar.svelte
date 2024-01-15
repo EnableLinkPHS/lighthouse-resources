@@ -1,20 +1,26 @@
 <script>
 	import data from '../Assets/data.json';
 	export let page = "home";
-	export let contrast = "none";
-	let primary = "#2b175f";
-	let text = "ffffff";
+	export let contrast;
+	let primary;
+	switch(contrast){
+		case "none": primary = "#2b175f";
+			break;
+		default: primary = "#5e5e5e";
+	}
 	function setCurrent(value){ page = value; }
 </script>
-<aside class="Sidebar" role="navigation">
-	{#each data.sideitems as item}
-		{#if (item.id == page)}
-			<button role="link" on:click={() => setCurrent(item.id)} disabled>{item.name}</button>
-		{:else}
-			<button role="link" on:click={() => setCurrent(item.id)}>{item.name}</button>
-		{/if}
-	{/each}
-</aside>
+<div style="--primary: {primary}">
+	<aside class="Sidebar" role="navigation">
+		{#each data.sideitems as item}
+			{#if (item.id == page)}
+				<button role="link" on:click={() => setCurrent(item.id)} disabled>{item.name}</button>
+			{:else}
+				<button role="link" on:click={() => setCurrent(item.id)}>{item.name}</button>
+			{/if}
+		{/each}
+	</aside>
+</div>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
 <style>
 	.Sidebar {
@@ -23,7 +29,7 @@
 		width: 15%;
 		height: 100%;
 		padding: 5px;
-		background: #2b175f;
+		background: var(--primary);
 	}
 	
 	.Sidebar button {
