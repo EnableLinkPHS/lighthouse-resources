@@ -1,9 +1,17 @@
+<script>
+	export let contrast = "none";
+	export let fontSize = 10;
+	export let underline = false;
+	function changeContrast(value){
+		contrast != value ? contrast = value : contrast = "none";
+	}
+</script>
 <div class="Header" role="toolbar">
-	<button>Increase Font</button>
-	<button>Decrease Font</button>
-	<button>Grayscale</button>
-	<button>High Contrast</button>
-	<button>URL Underline</button>
+	<button on:click={() => fontSize = Math.min(60, fontSize + 1)}>Increase Font</button>
+	<button on:click={() => fontSize = Math.max(5, fontSize - 1)}>Decrease Font</button>
+	<button on:click={() => changeContrast("gray")}>Grayscale</button>
+	<button on:click={() => changeContrast("high")}>High Contrast</button>
+	<button on:click={() => underline = !underline}>URL Underline</button>
 </div>
 <style>
 	.Header {
@@ -28,13 +36,3 @@
 		color: #000000;
 	}
 </style>
-
-<script>
-    let navitems = [
-        "Resize Text", 
-        "High Contrast", 
-        "Font Style", 
-        "Link Underline", 
-        "<temp>"
-    ];
-</script>
