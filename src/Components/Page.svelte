@@ -16,8 +16,16 @@
             </tr>
             {#each data[current].table as row}
                 <tr>
-                    {#each Object.values(row) as cell}
-                        <td tabindex="0">{cell}</td>
+                    {#each Object.entries(row) as [key, value]}
+                        {#if value}
+                            {#if key.includes("Website")}
+                                <td tabindex="0"><a href={value}>Visit site</a></td>
+                            {:else if key.includes("Email")}
+                                <td tabindex="0"><a href="mailto:{value}">{value}</a></td>
+                            {/if}
+                        {:else}
+                            <td tabindex="0"></td>
+                        {/if}
                     {/each}
                 </tr>
             {/each}
