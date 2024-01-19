@@ -22,6 +22,8 @@
                                 <td tabindex="0"><a href={value}>Visit site</a></td>
                             {:else if key.includes("Email")}
                                 <td tabindex="0"><a href="mailto:{value}">{value}</a></td>
+                            {:else}
+                                <td tabindex="0">{value}</td>
                             {/if}
                         {:else}
                             <td tabindex="0"></td>
