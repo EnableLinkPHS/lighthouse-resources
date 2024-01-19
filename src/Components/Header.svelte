@@ -3,7 +3,7 @@
 	const changeContrast = (value) => $pageContrast != value ? value : "none";
 </script>
 <div class="Header" role="toolbar">
-	<button on:click={() => $fontSize = Math.min(60, $fontSize + 1)}>Increase Font</button>
+	<button on:click={() => $fontSize = Math.min(30, $fontSize + 1)}>Increase Font</button>
 	<button on:click={() => $fontSize = Math.max(5, $fontSize - 1)}>Decrease Font</button>
 	<button on:click={() => $pageContrast = changeContrast("gray")}>Grayscale</button>
 	<button on:click={() => $pageContrast = changeContrast("high")}>High Contrast</button>
