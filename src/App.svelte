@@ -12,6 +12,7 @@
 <Sidebar bind:page contrast={$pageContrast}/>
 <Header/>
 <Page current={page}/>
+<p>Page: {page}; Contrast: {contrast}; Font Size: {fontSize}; Underline: {underline}</p>
 <style>
   #skip-link {
     position: absolute;
@@ -21,5 +22,8 @@
 
   #skip-link:focus {
     transform: translateY(0%);
+  }
+  .p {
+    position: relative;
   }
 </style>
