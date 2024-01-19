@@ -4,19 +4,23 @@
 	export let contrast;
 	let primary;
 	switch(contrast){
-		case "none": primary = "#2b175f";
+		case "gray": 
+			primary = "#5e5e5e"; 
 			break;
-		default: primary = "#5e5e5e";
+		case "high": 
+			primary = "#2b175f"; 
+			break;
+		default: 
+			primary = "#2b175f";
 	}
-	function setCurrent(value){ page = value; }
 </script>
 <div style="--primary: {primary}">
 	<aside class="Sidebar" role="navigation">
 		{#each data.sideitems as item}
 			{#if (item.id == page)}
-				<button role="link" on:click={() => setCurrent(item.id)} disabled>{item.name}</button>
+				<button role="link" on:click={() => page = item.id} disabled>{item.name}</button>
 			{:else}
-				<button role="link" on:click={() => setCurrent(item.id)}>{item.name}</button>
+				<button role="link" on:click={() => page = item.id}>{item.name}</button>
 			{/if}
 		{/each}
 	</aside>

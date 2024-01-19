@@ -19,7 +19,4 @@
   #skip-link:focus {
     transform: translateY(0%);
   }
-  .p {
-    position: relative;
-  }
 </style>
