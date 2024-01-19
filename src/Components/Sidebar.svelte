@@ -17,7 +17,7 @@
 			text = "000000";
 	}
 </script>
-<div style="--primary: {primary} --text: {text}">
+<div style="--primary: {primary}; --text: {text}">
 	<aside class="Sidebar" role="navigation">
 		{#each data.sideitems as item}
 			{#if (item.id == page)}
