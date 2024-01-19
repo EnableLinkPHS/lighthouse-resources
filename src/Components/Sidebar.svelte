@@ -2,22 +2,19 @@
 	import data from '../Assets/data.json';
 	import { pageContrast, fontSize } from "../store.js";
 	export let page = "home";
-	let primary; let text;
+	let primary;
 	$: switch($pageContrast){
 		case "gray": 
-			primary = "#5e5e5e"; 
-			text = "000000";
+			primary = "#5e5e5e";
 			break;
 		case "high": 
-			primary = "#000000"; 
-			text = "ffffff";
+			primary = "#000000";
 			break;
 		default: 
 			primary = "#2b175f";
-			text = "000000";
 	}
 </script>
-<div style="--primary: {primary}; --text: {text}">
+<div style="--primary: {primary}">
 	<aside class="Sidebar" role="navigation">
 		{#each data.sideitems as item}
 			{#if (item.id == page)}
@@ -42,13 +39,13 @@
 	.Sidebar button {
 		background: none;
 		font-family: 'Roboto Slab';
-		color: var(--text);
+		color: white;
 		font-size: 15px;
 		text-align: left;
 		width: 100%;
 		border: none;
 		border-radius: 0px;
-		border-bottom: 2px solid (--text);
+		border-bottom: 2px solid white;
 		margin: 0px;
 		padding: 6px;
 		padding-top: 5%;
