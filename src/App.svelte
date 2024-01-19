@@ -2,11 +2,11 @@
   import Sidebar from "./Components/Sidebar.svelte";
   import Header from "./Components/Header.svelte";
   import Page from "./Components/Page.svelte";
-  import { pageContrast} from "./store.js";
+  import { pageContrast } from "./store.js";
   let page = "home";
 </script>
 <a id="skip-link" href="#page">Skip to main content</a>
-<Sidebar bind:page contrast={$pageContrast}/>
+<Sidebar bind:page/>
 <Header/>
 <Page current={page}/>
 <style>

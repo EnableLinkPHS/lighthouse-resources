@@ -1,9 +1,9 @@
 <script>
 	import data from '../Assets/data.json';
+	import { pageContrast, fontSize } from "../store.js";
 	export let page = "home";
-	export let contrast;
 	let primary;
-	switch(contrast){
+	$: switch($pageContrast){
 		case "gray": 
 			primary = "#5e5e5e"; 
 			break;
