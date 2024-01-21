@@ -49,4 +49,8 @@
     .Page a {
 		text-decoration: var(--linkUnderline);
 	}
+    .Page table {
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
 </style>
