@@ -3,7 +3,7 @@
     import { pageContrast, fontSize, underline } from "../store.js"; // for testing
     let linkUnderline; let textSize;
     $: linkUnderline = $underline ? "underline" : "none";
-    $: textSize = fontSize + "px";
+    $: textSize = $fontSize + "px";
     export let current = "home";
 </script>
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
