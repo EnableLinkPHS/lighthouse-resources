@@ -1,12 +1,13 @@
 <script>
     import data from "../Assets/data.json";
     import { pageContrast, fontSize, underline } from "../store.js"; // for testing
-    let linkUnderline;
+    let linkUnderline; let textSize;
     $: linkUnderline = $underline ? "underline" : "none";
+    $: textSize = $fontSize;
     export let current = "home";
 </script>
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-<main class="Page" id="page" style="--linkUnderline: {linkUnderline}; --fontSize: {$fontSize}">
+<main class="Page" id="page" style="--linkUnderline: {linkUnderline}; --textSize: {textSize}">
     <p tabindex="0">Contrast: {$pageContrast}, Size: {$fontSize}, Underline: {$underline}</p>
     <p tabindex="0">{data[current].flavor}</p>
     {#if data[current].thead} 
@@ -45,7 +46,7 @@
 		left: 25%;
 	}
     .Page table {
-        font-size: var(--fontSize);
+        font-size: var(--textSize);
     }
     .Page a {
 		text-decoration: var(--linkUnderline);
