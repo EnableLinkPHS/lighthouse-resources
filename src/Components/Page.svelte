@@ -43,8 +43,10 @@
 		position: absolute;
 		top: 10%;
 		left: 25%;
-        font-size: var(--fontSize);
 	}
+    .Page table {
+        font-size: var(--fontSize);
+    }
     .Page a {
 		text-decoration: var(--linkUnderline);
 	}
