@@ -2,7 +2,7 @@
     import data from "../Assets/data.json";
     import { pageContrast, fontSize, underline } from "../store.js"; // for testing
     let linkUnderline;
-    $: linkUnderline = underline ? "underline" : "none";
+    $: linkUnderline = $underline ? "underline" : "none";
     export let current = "home";
 </script>
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
