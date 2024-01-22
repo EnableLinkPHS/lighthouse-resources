@@ -52,6 +52,7 @@
         font-size: var(--textSize);
         max-width: 75%;
         max-height: 90%;
+        column-gap: 2px;
 	}
     .Page a {
 		text-decoration: var(--linkUnderline);
