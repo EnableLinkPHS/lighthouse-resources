@@ -46,10 +46,12 @@
 </main>
 <style>
     .Page {
-		position: absolute;
-		top: 10%;
-		left: 25%;
+	position: absolute;
+	top: 10%;
+	left: 25%;
         font-size: var(--textSize);
+	max-width: 75%;
+	max-height: 90%;
 	}
     .Page a {
 		text-decoration: var(--linkUnderline);
