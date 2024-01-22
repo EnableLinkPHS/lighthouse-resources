@@ -18,13 +18,13 @@
 				"Name": "The Carroll Center for the Blind",
 				"Phone Number": "617-969-6200 ext 240",
 				"Website": "https://carroll.org/store/",
-				"Email": ""
+				"Email": "development@carroll.org"
 			},
 			{
-				"Name": "American Council for the Blind",
-				"Phone Number": "",
-				"Website": "",
-				"Email": ""
+				"Name": "American Council of the Blind",
+				"Phone Number": "202-467-5081 or 800-424-8666",
+				"Website": "https://acb.org",
+				"Email": "info@acb.org"
 			},
 			{
 				"Name": "National Federation for the Blind ",
@@ -35,38 +35,38 @@
 			{
 				"Name": "Maxi-Aids",
 				"Phone Number": "800-522-6294",
-				"Website": "www.maxiaids.com",
+				"Website": "https://www.maxiaids.com",
 				"Email": "sales@maxiaids.com"
 			},
 			{
 				"Name": "LS&S",
 				"Phone Number": "800-468-4789 or 716-348-3500",
-				"Website": "www.LSSproducts.com",
+				"Website": "https://www.LSSproducts.com",
 				"Email": "LsSinfo@LSSproducts.com"
 			},
 			{
 				"Name": "ILA Independence Living Anames,LLC",
 				"Phone Number": "800-537-2118 or 716-332-2970",
-				"Website": "www.independentliving.com",
+				"Website": "https://www.independentliving.com",
 				"Email": "catalog@independentliving.com"
 			},
 			{
 				"Name": "N'SIGHT VIP SERVICES, LLC",
 				"Phone Number": "202-570-4282",
-				"Website": ": www.nsightvipservices.com",
-				"Email": "LsSinfo@LSSproducts.com"
+				"Website": "https://www.nsightvipservices.com",
+				"Email": "nsightaidsandproducts@gmail.com"
 			},
 			{
 				"Name": "Miami Lighthouse for the Blind and Visually Impaired",
 				"Phone Number": "305-856-2288",
 				"Website": "https://lighthouseshop.org/ ",
-				"Email": ""
+				"Email": "info@miamilighthouse.org"
 			},
 			{
 				"Name": "The Low Vision Store",
 				"Phone Number": "1-800-871-8780",
-				"Website": "",
-				"Email": ""
+				"Website": "https://thelowvisionstore.com/",
+				"Email": "info@thelowvisionstore.com"
 			}
 		]
 	},
@@ -108,7 +108,7 @@
 			   "Company Name": "MD RELAY 711",
 			   "Phone Number": "800-643-3769",
 			   "Location": "Maryland",
-			   "Details": ""
+			   "Details": "Transit service with accessibility and TTY options"
 			 },
 			 {
 			   "Company Name": "Transport DC",
@@ -117,7 +117,7 @@
 			   "Details": "Alternative transportation service for Metro Access for those who live in DC and who are traviling in and around DC only"
 			 },
 			 {
-			   "Company Name": "Metro’s Abilities-Ride ",
+			   "Company Name": "Metro's Abilities-Ride ",
 			   "Phone Number": "202-962-2686",
 			   "Location": "DC",
 			   "Details": "Alternative service for MetroAccess-eligible customers"
@@ -185,7 +185,8 @@
 			"Region 2: Southern Maryland & Lower Shore - Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico and Worcester Counties",
 			"Region 3: Baltimore City & Eastern Baltimore County",
 			"Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties",
-			"Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+			"Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties",
+			"OBVS: Office for Blindness & Vision Services"
 		],
 		"thead": ["Office", "Supervisor Name", "Address", "Phone Number", "Fax", "TTY/VP", "Email", "Region"],
 		"table": [
@@ -487,7 +488,7 @@
 			   "Fax": "410-554-9197",
 			   "TTY or VP": "410-415-9317 VP",
 			   "Email": "obvs.dors@maryland.gov",
-			   "Region": "Office for Blindness & Vision Services"
+			   "Region": "OBVS"
 			 },
 			 {
 			   "Office": "Southern Maryland and Eastern Shore",
@@ -497,9 +498,7 @@
 			   "Fax": "410-974-7747",
 			   "TTY or VP": "301-645-8883 TTY",
 			   "Email": "obvs.dors@maryland.gov",
-			   "Region": "Office for Blindness & Vision Services",
-			   "FIELD9": "",
-			   "FIELD10": " "
+			   "Region": "OBVS"
 			 },
 			 {
 			   "Office": "Central Maryland",
@@ -509,7 +508,7 @@
 			   "Fax": "410-554-5407",
 			   "TTY or VP": "",
 			   "Email": "obvs.dors@maryland.gov",
-			   "Region": "Office for Blindness & Vision Services"
+			   "Region": "OBVS"
 			 },
 			 {
 			   "Office": "Western Maryland and Montgomery Co",
@@ -519,7 +518,7 @@
 			   "Fax": "301-949-5876",
 			   "TTY or VP": "866-338-7985 VP",
 			   "Email": "obvs.dors@maryland.gov",
-			   "Region": "Office for Blindness & Vision Services"
+			   "Region": "OBVS"
 			 },
 			 {
 			   "Office": "",
