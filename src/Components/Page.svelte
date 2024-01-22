@@ -57,7 +57,7 @@
 		text-decoration: var(--linkUnderline);
 	}
     .Page table {
-        border-spacing: 2px;
+        border-spacing: 2px 0px;
         overflow-x: scroll;
         overflow-y: scroll;
     }
