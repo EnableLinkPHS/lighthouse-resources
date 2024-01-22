@@ -46,12 +46,12 @@
 </main>
 <style>
     .Page {
-	position: absolute;
-	top: 10%;
-	left: 25%;
+        position: absolute;
+        top: 10%;
+        left: 25%;
         font-size: var(--textSize);
-	max-width: 75%;
-	max-height: 90%;
+        max-width: 75%;
+        max-height: 90%;
 	}
     .Page a {
 		text-decoration: var(--linkUnderline);
@@ -59,5 +59,8 @@
     .Page table {
         overflow-x: scroll;
         overflow-y: scroll;
+    }
+    .Page th, td {
+        border-bottom: 1px solid #dddddd;
     }
 </style>
