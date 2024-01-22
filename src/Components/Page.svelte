@@ -52,12 +52,12 @@
         font-size: var(--textSize);
         max-width: 75%;
         max-height: 90%;
-        column-gap: 2px;
 	}
     .Page a {
 		text-decoration: var(--linkUnderline);
 	}
     .Page table {
+        border-spacing: 2px;
         overflow-x: scroll;
         overflow-y: scroll;
     }
