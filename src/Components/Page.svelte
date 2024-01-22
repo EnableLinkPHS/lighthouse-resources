@@ -8,8 +8,13 @@
 </script>
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <main class="Page" id="page" style="--linkUnderline: {linkUnderline}; --textSize: {textSize}">
-    <!--p tabindex="0">Contrast: {$pageContrast}, Size: {textSize}, Underline: {linkUnderline}</p-->
-    <p tabindex="0">{data[current].flavor}</p>
+    {#if Array.isArray(data[current].flavor)}
+        {#each data[current].flavor as line}
+            <p tabindex="0">{line}</p>
+        {/each}
+    {:else}
+        <p tabindex="0">{data[current].flavor}</p>
+    {/if}
     {#if data[current].thead} 
         <table tabindex="0">
             <tr>

@@ -179,7 +179,14 @@
 			]
 	},
 	"dors": {
-		"flavor": "Maryland Division of Rehabilitation Services",
+		"flavor": [
+			"Maryland Division of Rehabilitation Services", 
+			"Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties",
+			"Region 2: Southern Maryland & Lower Shore - Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico and Worcester Counties",
+			"Region 3: Baltimore City & Eastern Baltimore County",
+			"Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties",
+			"Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+		],
 		"thead": ["Office", "Supervisor Name", "Address", "Phone Number", "Fax", "TTY/VP", "Email", "Region"],
 		"table": [
 			 {
@@ -190,7 +197,7 @@
 			   "Fax": "301-733-4805",
 			   "TTY or VP": "301-200-8082 VP",
 			   "Email": "region1.dors@maryland.gov",
-			   "Region": "Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties"
+			   "Region": "Region 1"
 			 },
 			 {
 			   "Office": "Cumberland",
@@ -200,7 +207,7 @@
 			   "Fax": "301-777-2056",
 			   "TTY or VP": "301-777-2119 TTY",
 			   "Email": "allegany-garrett.dors@maryland.gov",
-			   "Region": "Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties"
+			   "Region": "Region 1"
 			 },
 			 {
 			   "Office": "Frederick",
@@ -210,7 +217,7 @@
 			   "Fax": "240-629-7587",
 			   "TTY or VP": "301-200-8093 VP",
 			   "Email": "Frederick.dors@maryland.gov",
-			   "Region": "Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties"
+			   "Region": "Region 1"
 			 },
 			 {
 			   "Office": "Germantown West",
@@ -220,7 +227,7 @@
 			   "Fax": "301-540-7026",
 			   "TTY or VP": "301-200-8083 VP",
 			   "Email": "Germantown.dors@maryland.gov",
-			   "Region": "Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties"
+			   "Region": "Region 1"
 			 },
 			 {
 			   "Office": "Hagerstown",
@@ -230,7 +237,7 @@
 			   "Fax": "240-313-9243",
 			   "TTY or VP": "",
 			   "Email": "Hagerstown.dors@maryland.gov",
-			   "Region": "Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties"
+			   "Region": "Region 1"
 			 },
 			 {
 			   "Office": "Westminster",
@@ -240,7 +247,7 @@
 			   "Fax": "410-857-1807",
 			   "TTY or VP": "301-200-8081 VP",
 			   "Email": "Westminster.dors@maryland.gov",
-			   "Region": "Region 1: Western Maryland - Allegany, Carroll, Frederick, Garrett, Upper Montgomery and Washington Counties"
+			   "Region": "Region 1"
 			 },
 			 {
 			   "Office": "Regional Office",
@@ -250,7 +257,7 @@
 			   "Fax": "410-974-7747",
 			   "TTY or VP": "",
 			   "Email": "egion2.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Annapolis",
@@ -260,7 +267,7 @@
 			   "Fax": "410-974-7741",
 			   "TTY or VP": "410-415-9301 VP",
 			   "Email": "Annapolis.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Easton",
@@ -270,7 +277,7 @@
 			   "Fax": "410-819-6840",
 			   "TTY or VP": "",
 			   "Email": "Easton.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Linthicum",
@@ -280,7 +287,7 @@
 			   "Fax": "410-636-9019",
 			   "TTY or VP": "",
 			   "Email": "Linthicum.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Prince Fredeick",
@@ -290,7 +297,7 @@
 			   "Fax": "443-550-6890",
 			   "TTY or VP": "",
 			   "Email": "PrinceFrederick.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Salisbury",
@@ -300,7 +307,7 @@
 			   "Fax": "410-546-8407",
 			   "TTY or VP": "410-415-9299 VP",
 			   "Email": "Salisbury.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Tri-County-St. Mary's",
@@ -310,7 +317,7 @@
 			   "Fax": "301-601-1519",
 			   "TTY or VP": "",
 			   "Email": "Leonardtown.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Waldorf",
@@ -320,7 +327,7 @@
 			   "Fax": "301-843-7130",
 			   "TTY or VP": "301-645-8883 TTY",
 			   "Email": "waldorf.dors@maryland.gov",
-			   "Region": "Region 2: Southern Maryland & Lower Shore – Anne Arundel, Calvert, Caroline, Charles, Dorchester, Queen Anne's, St. Mary's, Somerset, Talbot, Wicomico & Worcester Counties"
+			   "Region": "Region 2"
 			 },
 			 {
 			   "Office": "Regional Office",
@@ -330,7 +337,7 @@
 			   "Fax": "410-244-5620",
 			   "TTY or VP": "410-333-5288",
 			   "Email": "region3.dors@maryland.gov",
-			   "Region": "Region 3: Baltimore City & Eastern Baltimore County"
+			   "Region": "Region 3"
 			 },
 			 {
 			   "Office": "Baltimore-Argonne Dr.",
@@ -340,7 +347,7 @@
 			   "Fax": "410-261-2957",
 			   "TTY or VP": "",
 			   "Email": "BaltimoreNEUnit35.dors@maryland.gov",
-			   "Region": "Region 3: Baltimore City & Eastern Baltimore County"
+			   "Region": "Region 3"
 			 },
 			 {
 			   "Office": "Baltimore-Park Ave.",
@@ -350,7 +357,7 @@
 			   "Fax": "410-244-5874",
 			   "TTY or VP": "410-333-5288 TTY",
 			   "Email": "ParkAveUnit37.dors@maryland.gov",
-			   "Region": "Region 3: Baltimore City & Eastern Baltimore County"
+			   "Region": "Region 3"
 			 },
 			 {
 			   "Office": "Gaslight Square",
@@ -360,7 +367,7 @@
 			   "Fax": "410-783-8960",
 			   "TTY or VP": "410-415-9296 VP",
 			   "Email": "BaltimoreSUnit36.dors@maryland.gov",
-			   "Region": "Region 3: Baltimore City & Eastern Baltimore County"
+			   "Region": "Region 3"
 			 },
 			 {
 			   "Office": "Eastern Baltimore Co.",
@@ -370,7 +377,7 @@
 			   "Fax": "410-554-3323",
 			   "TTY or VP": "",
 			   "Email": "ebc.dors@maryland.gov",
-			   "Region": "Region 3: Baltimore City & Eastern Baltimore County"
+			   "Region": "Region 3"
 			 },
 			 {
 			   "Office": "Regional Office",
@@ -380,7 +387,7 @@
 			   "Fax": "410-998-2063",
 			   "TTY or VP": "410-321-4035",
 			   "Email": "region5.dors@maryland.gov",
-			   "Region": "Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties"
+			   "Region": "Region 5"
 			 },
 			 {
 			   "Office": "Bel Air",
@@ -390,7 +397,7 @@
 			   "Fax": "410-836-4584",
 			   "TTY or VP": "",
 			   "Email": "BelAir.dors@maryland.gov",
-			   "Region": "Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties"
+			   "Region": "Region 5"
 			 },
 			 {
 			   "Office": "Columbia",
@@ -400,7 +407,7 @@
 			   "Fax": "410-290-2651",
 			   "TTY or VP": "",
 			   "Email": "Columbia.dors@maryland.gov",
-			   "Region": "Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties"
+			   "Region": "Region 5"
 			 },
 			 {
 			   "Office": "Towson",
@@ -410,7 +417,7 @@
 			   "Fax": "410-321-4054",
 			   "TTY or VP": "410-415-9300 VP",
 			   "Email": "Towson.dors@maryland.gov",
-			   "Region": "Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties"
+			   "Region": "Region 5"
 			 },
 			 {
 			   "Office": "Elkton",
@@ -420,7 +427,7 @@
 			   "Fax": "410-996-0626",
 			   "TTY or VP": "",
 			   "Email": "Elkton.dors@maryland.gov",
-			   "Region": "Region 5: Central Maryland & Upper Shore - Baltimore, Cecil, Harford, Howard and Kent Counties"
+			   "Region": "Region 5"
 			 },
 			 {
 			   "Office": "Regional Office",
@@ -430,7 +437,7 @@
 			   "Fax": "301-306-1046",
 			   "TTY or VP": "301-200-8084 VP",
 			   "Email": "region6.dors@maryland.gov",
-			   "Region": "Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+			   "Region": "Region 6"
 			 },
 			 {
 			   "Office": "Montgomery Transitioning Unit",
@@ -440,7 +447,7 @@
 			   "Fax": "301-540-7026",
 			   "TTY or VP": " 301-200-8083 VP",
 			   "Email": "Germantown.dors@maryland.gov",
-			   "Region": "Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+			   "Region": "Region 6"
 			 },
 			 {
 			   "Office": "Lanham",
@@ -450,7 +457,7 @@
 			   "Fax": "301-306-3636",
 			   "TTY or VP": "301-200-8084 VP",
 			   "Email": "Lanham.dors@maryland.gov",
-			   "Region": "Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+			   "Region": "Region 6"
 			 },
 			 {
 			   "Office": "Suitland",
@@ -460,7 +467,7 @@
 			   "Fax": "301-967-7263",
 			   "TTY or VP": "",
 			   "Email": "Suitland.dors@maryland.gov",
-			   "Region": "Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+			   "Region": "Region 6"
 			 },
 			 {
 			   "Office": "Wheaton",
@@ -470,7 +477,7 @@
 			   "Fax": "301-949-5876",
 			   "TTY or VP": "301-200-8090 VP",
 			   "Email": "Wheaton.dors@maryland.gov",
-			   "Region": "Region 6: D.C. Suburbs - Lower Montgomery and Prince George's Counties"
+			   "Region": "Region 6"
 			 },
 			 {
 			   "Office": "Offce for Blind and Vision Services",
